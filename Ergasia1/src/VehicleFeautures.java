@@ -1,5 +1,6 @@
-// ISP Violation
-interface VehicleFeatures {
-    void navigate();
-    void communicate();
+public interface Navigation {
+	
+	    void navigate();
+	}
+
 }
