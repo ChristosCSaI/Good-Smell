@@ -1,7 +1,7 @@
-// LSP Violation
+// Utilize inheritance correctly with meaningful behavior
 class ElectricVehicle extends Vehicle {
-    // Refused Bequest
-    public void printVehicleDetails() {
+    // Method specific to electric vehicles
+    public void printElectricDetails() {
         System.out.println("Electric Vehicle");
     }
 }
