@@ -1,12 +1,9 @@
-
-// Duplicated Code
-class Truck implements VehicleFeatures {
+public class Truck implements Navigation, Communication {
     public void navigate() {
-    	   System.out.println("Truck navigation logic");
+    	  System.out.println("Truck navigation logic");
     }
 
-    // Duplicate method
     public void communicate() {
-        System.out.println("Truck communication logic");
-        }
+    	  System.out.println("Truck communication logic");
+    }
 }
