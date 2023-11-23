@@ -3,11 +3,11 @@ public class HybridVehicle extends Vehicle implements Communication,Navigation {
 		super();
 	}
 	public void communicate() {
-		   System.out.println("Hybrid Vehicle communication logic");
+		   System.out.println("Hybrid Vehicle");
     }
 
  
     public void navigate() {
-        System.out.println("Hybrid Vehicle navigation logic");
+        System.out.println("Hybrid Vehicle");
     }
 }
