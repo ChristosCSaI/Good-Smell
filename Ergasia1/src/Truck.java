@@ -1,4 +1,8 @@
-public class Truck implements Navigation, Communication {
+class Truck extends Vehicle implements Navigation, Communication {
+	public Truck(String model,String make,int year,boolean isElectric){
+        super();
+		
+	}
     public void navigate() {
     	  System.out.println("Truck navigation logic");
     }
