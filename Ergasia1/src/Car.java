@@ -4,10 +4,10 @@ public class Car extends Vehicle implements Navigation, Communication {
 		super(model,make,year,isElectric);
 	}
     public void navigate() {
-        System.out.println("Car navigation logic");
+        System.out.println("Car navigation");
         }
 
     public void communicate() {
-    	  System.out.println("Car communication logic");
+    	  System.out.println("Car communication");
     }
 }
