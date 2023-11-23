@@ -4,9 +4,9 @@ public class Motorcycle extends Vehicle implements Communication,Navigation{{
 	        super();
 	        }
 	        public void communicate(){
-	            System.out.println("Motorcycle communication logic");
+	            System.out.println("Motorcycle communication ");
 	            }
 	        public void navigate(){
-	        System.out.println("Motorcycle navigation logic");
+	        System.out.println("Motorcycle navigation ");
 	        }
 }
