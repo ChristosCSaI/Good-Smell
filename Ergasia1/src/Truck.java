@@ -4,10 +4,10 @@ class Truck extends Vehicle implements Navigation, Communication {
 		
 	}
     public void navigate() {
-    	  System.out.println("Truck navigation logic");
+    	  System.out.println("Truck navigation ");
     }
 
     public void communicate() {
-    	  System.out.println("Truck communication logic");
+    	  System.out.println("Truck communication ");
     }
 }
